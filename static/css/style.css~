@@ -4,12 +4,10 @@ body {
     margin: 0;
     padding: 0;
     color: #111;
-    /* text-shadow: 0px 1px 0px white; */
-    /* background: url('../image/background.png') repeat; */
-    /* background: url('../img/background.png') repeat; */
+    /*text-shadow: 0px 1px 0px white;*/
+    /*background: url('../img/background.png') repeat;*/
     /*background: gray; */
     background: #f5f5f5;
-    /* background: #0b233b; */
     text-align: justify;
 }
 
@@ -49,17 +47,17 @@ a:not([class*="disable"]) {
     /* color: rgb(34, 85, 153); */
     /* color: rgb(0, 136, 204); */
     text-decoration: none;
-   transition: text-shadow 1s, color 1s;
+/*    transition: text-shadow 1s, color 1s;
     transition-timing-function: linear;
     -webkit-transition: text-shadow 1s, color 1s;
     transition-timing-function: linear;
     -moz-transition: text-shadow 1s, color 1s;
-    -o-transition: text-shadow 1s, color 1s;
+    -o-transition: text-shadow 1s, color 1s;*/
 }
 
 a:hover:not([class*="disable"]) {
     color: #333;
-    /* text-shadow: 2px 2px 2px #666; */
+    /*text-shadow: 2px 2px 2px #666;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -160,11 +158,11 @@ div.entry-overview {
     margin: 20px 112px 20px 92px;
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
-    /* background: white; */
+    /*background: white;
     transition: background 1s;
     -webkit-transition: background 1s;
     -moz-transition: background 1s;
-    -o-transition: background 1s;
+    -o-transition: background 1s;*/
 }
 
 /*div.entry-overview:hover {

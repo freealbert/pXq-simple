@@ -10,13 +10,13 @@
     </div>
     <div class="detail">
       <h1><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a> </h1>
-      <!-- <div class="summary">
+      <div class="summary">
 	<p>{{ article.summary }}</p>
-      </div> -->
+      </div>
     </div>
   </div>
   {% endfor %}
 {% endif %}
  
-{% include "pagination.html" %}
+{% include "pagination.html"}
 {% endblock %}
